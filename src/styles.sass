@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap"
+body
+	@extend .bg-primary
+
+.chatArea
+	@extend .border 
+	@extend .container 
+	@extend .bg-white 
+	@extend .rounded
+	height: 60vh
+	overflow-y: auto
+	ul
+		list-style: none
+  		word-wrap: break-word
+	.message
+		padding: 10px 20px
+.userChat
+	height: 55vh
+	overflow-y: auto
+
